@@ -7,8 +7,7 @@ st.set_page_config(page_title="Superstore Dashboard", layout="wide")
 st.title("Superstore Sales Dashboard")
 
 
-# Load your dataset directly
-df = pd.read_csv("experiment10_raw_dataset - experiment10_raw_dataset(2).csv")
+df = pd.read_csv("experiment10_raw_dataset - experiment10_raw_dataset.csv")
 
 
 # Data cleaning
